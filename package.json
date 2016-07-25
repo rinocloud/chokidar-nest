@@ -1,0 +1,27 @@
+{
+  "name": "chokidar-nest",
+  "version": "0.0.1",
+  "description": "converts chokidars getWatched into nested structure",
+  "repository": "rinocloud/chokidar-nest.git",
+  "author": "eoinmurray",
+  "license": "MIT",
+  "scripts": {
+    "start": "node -r babel-register example.js",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "lodash": "^4.14.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-register": "^6.11.5",
+    "json-loader": "^0.5.4",
+    "webpack": "^1.13.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}
